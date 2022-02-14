@@ -1,0 +1,171 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-12-09T19:25:33.452Z",
+    "end": "2021-12-09T19:25:42.624Z",
+    "duration": 9172,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4649e242-7130-46d3-8e68-7868b7f5c945",
+      "title": "",
+      "fullFile": "cypress/integration/test.feature",
+      "file": "cypress/integration/test.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8973bccb-7d79-4d1e-9191-2e2720b8ff1a",
+          "title": "Testing Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "First Scenario",
+              "fullTitle": "Testing Scenarios First Scenario",
+              "timedOut": null,
+              "duration": 1493,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "376fde84-d072-454c-9e80-ebaa28904e0a",
+              "parentUUID": "8973bccb-7d79-4d1e-9191-2e2720b8ff1a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Second Scenario",
+              "fullTitle": "Testing Scenarios Second Scenario",
+              "timedOut": null,
+              "duration": 2950,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "725c4b31-f8e5-4064-a416-b447243777db",
+              "parentUUID": "8973bccb-7d79-4d1e-9191-2e2720b8ff1a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Third Scenario",
+              "fullTitle": "Testing Scenarios Third Scenario",
+              "timedOut": null,
+              "duration": 1054,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "552533ef-aeb0-4d87-8330-937da51f7d62",
+              "parentUUID": "8973bccb-7d79-4d1e-9191-2e2720b8ff1a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Fourth Scenario",
+              "fullTitle": "Testing Scenarios Fourth Scenario",
+              "timedOut": null,
+              "duration": 1610,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: expected false to be true",
+                "estack": "AssertionError: expected false to be true\n    [3]</<@https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress/integration/test.feature:216:38\n    resolveAndRunStepDefinition@https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress/integration/test.feature:20420:29\n    stepTest/<@https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress/integration/test.feature:19741:35\n    getRet@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:155161:20\n    tryCatcher@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:13196:23\n    ../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:10470:29\n    thenFn@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:155179:60\n    then@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:155631:21\n    wrapByType/<@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:172103:23\n    runCommand/<@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:170703:17\n    tryCatcher@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:13196:23\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11131:31\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11188:18\n    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11225:10\n    _drainQueueStep@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:7907:12\n    _drainQueue@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:7896:24\n    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:7912:16\n    Async/this.drainQueues@https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "45bc227e-8ac8-431f-8f97-9b9189182a58",
+              "parentUUID": "8973bccb-7d79-4d1e-9191-2e2720b8ff1a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "376fde84-d072-454c-9e80-ebaa28904e0a",
+            "725c4b31-f8e5-4064-a416-b447243777db",
+            "552533ef-aeb0-4d87-8330-937da51f7d62"
+          ],
+          "failures": [
+            "45bc227e-8ac8-431f-8f97-9b9189182a58"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 7107,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

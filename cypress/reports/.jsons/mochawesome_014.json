@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-12-28T15:51:43.359Z",
+    "end": "2021-12-28T15:51:49.331Z",
+    "duration": 5972,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3c3560ed-9051-416b-9320-aef5ac71a6d3",
+      "title": "",
+      "fullFile": "cypress/integration/test.feature",
+      "file": "cypress/integration/test.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5afae83e-f0e3-451e-ae06-bfdf985743bb",
+          "title": "Testing Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Adding and moving card",
+              "fullTitle": "Testing Scenarios Adding and moving card",
+              "timedOut": null,
+              "duration": 3913,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: User clicks on \"Add a Card in To Do\"",
+                "estack": "Error: Step implementation missing for: User clicks on \"Add a Card in To Do\"\nresolveAndRunStepDefinition@https://trello.com/__cypress/tests?p=cypress/integration/test.feature:20360:11\nstepTest/<@https://trello.com/__cypress/tests?p=cypress/integration/test.feature:19675:35\ngetRet@https://trello.com/__cypress/runner/cypress_runner.js:155161:20\ntryCatcher@https://trello.com/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@https://trello.com/__cypress/runner/cypress_runner.js:10470:29\nthenFn@https://trello.com/__cypress/runner/cypress_runner.js:155179:60\nthen@https://trello.com/__cypress/runner/cypress_runner.js:155631:21\nwrapByType/<@https://trello.com/__cypress/runner/cypress_runner.js:172103:23\nrunCommand/<@https://trello.com/__cypress/runner/cypress_runner.js:170703:17\ntryCatcher@https://trello.com/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://trello.com/__cypress/runner/cypress_runner.js:11131:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://trello.com/__cypress/runner/cypress_runner.js:11188:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@https://trello.com/__cypress/runner/cypress_runner.js:11225:10\n_drainQueueStep@https://trello.com/__cypress/runner/cypress_runner.js:7907:12\n_drainQueue@https://trello.com/__cypress/runner/cypress_runner.js:7896:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://trello.com/__cypress/runner/cypress_runner.js:7912:16\nAsync/this.drainQueues@https://trello.com/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "9d8b1ca5-b4da-4530-9394-f8fed499f8ec",
+              "parentUUID": "5afae83e-f0e3-451e-ae06-bfdf985743bb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9d8b1ca5-b4da-4530-9394-f8fed499f8ec"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3913,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

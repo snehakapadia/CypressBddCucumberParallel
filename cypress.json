@@ -1,0 +1,16 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "env" : {
+        "URL": "https://react-redux.realworld.io/"
+    },
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+    },
+    "video": false,
+    "defaultCommandTimeout": 10000
+}

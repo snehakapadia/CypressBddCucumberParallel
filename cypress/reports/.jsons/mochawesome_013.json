@@ -1,0 +1,185 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-12-09T22:27:47.014Z",
+    "end": "2021-12-09T22:27:56.636Z",
+    "duration": 9622,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b9799b01-6eb8-419d-b47f-ea0325feb663",
+      "title": "",
+      "fullFile": "cypress/integration/test.feature",
+      "file": "cypress/integration/test.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+          "title": "Testing Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Happy Flow with Checkout",
+              "fullTitle": "Testing Scenarios Happy Flow with Checkout",
+              "timedOut": null,
+              "duration": 1403,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cb800ca5-bd6d-4844-8a75-6f7d415d327a",
+              "parentUUID": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Sorting Functionality Check Scenario",
+              "fullTitle": "Testing Scenarios Sorting Functionality Check Scenario",
+              "timedOut": null,
+              "duration": 2930,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "ceae9587-829f-4f07-ba63-9c3ed533f3b2",
+              "parentUUID": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Cart Add/Remove Scenario",
+              "fullTitle": "Testing Scenarios Cart Add/Remove Scenario",
+              "timedOut": null,
+              "duration": 1026,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0c2c2890-d3c6-4189-a397-5a24b9ab7216",
+              "parentUUID": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Cart Remove Product Scenario",
+              "fullTitle": "Testing Scenarios Cart Remove Product Scenario",
+              "timedOut": null,
+              "duration": 641,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e89b01b7-016e-4a5d-9a0a-837df8925172",
+              "parentUUID": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Filter Functionality Scenario",
+              "fullTitle": "Testing Scenarios Filter Functionality Scenario",
+              "timedOut": null,
+              "duration": 1393,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5ed35b3c-5057-482c-ad18-d76d0d6400a9",
+              "parentUUID": "ffe03510-a153-47a8-b5ad-3478af12f7d2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cb800ca5-bd6d-4844-8a75-6f7d415d327a",
+            "ceae9587-829f-4f07-ba63-9c3ed533f3b2",
+            "0c2c2890-d3c6-4189-a397-5a24b9ab7216",
+            "e89b01b7-016e-4a5d-9a0a-837df8925172",
+            "5ed35b3c-5057-482c-ad18-d76d0d6400a9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7393,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

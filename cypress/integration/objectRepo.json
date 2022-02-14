@@ -1,0 +1,22 @@
+{
+    "Sign Up": "//a[text()='Sign up']",
+    "Username": "//input[@placeholder='Username']",
+    "Email": "//input[@placeholder='Email']",
+    "Password": "//input[@placeholder='Password']",
+    "Sign In Button": "//button[text()='Sign in']",
+    "Your Feed": "//a[text()='Your Feed']",
+    "New Post": "//a[contains(text(),'New Post')]",
+    "Article Title": "//input[@placeholder='Article Title']",
+    "Article About": "//input[contains(@placeholder,'this article about')]",
+    "Article Details": "//textarea[@placeholder='Write your article (in markdown)']",
+    "Tags": "//input[@placeholder='Enter tags']",
+    "Publish Article": "//button[text()='Publish Article']",
+    "Write Comment": "//form[@class='card comment-form']//textarea",
+    "Post Comment": "//button[text()='Post Comment']",
+    "Comment Verfication": "//div[@class='card']//p",
+    "Comment Author": "//div[@class='card-footer']/a[text()]",
+    "Comment TimeStamp": "//div[@class='card-footer']/span[@class='date-posted']",
+    "Delete Post": "//div[@class='card-footer']//i[@class='ion-trash-a']",
+    "Settings": "//a[contains(text(),'Settings')]",
+    "Logout": "//button[contains(text(),'logout')]"
+}

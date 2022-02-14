@@ -1,0 +1,30 @@
+{
+    "name": "TestAutomationCypress",
+    "main": "index.js",
+    "scripts": {
+        "clean:reports": "if exist cypress\reports rmdir /S/Q cypress\reports",
+        "scripts": "cypress run --browser chrome",
+        "posttest": "node cucumber-html-report.js",
+        "test": "npm install && npm run scripts || npm run posttest"
+    },
+    "devDependencies": {
+        "cypress": "*",
+        "cypress-cucumber-preprocessor": "*",
+        "cypress-mochawesome-reporter": "*",
+        "cypress-plugin-tab": "*",
+        "cypress-xpath": "*",
+        "multiple-cucumber-html-reporter": "*"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true,
+        "cucumberJson": {
+            "generate": true,
+            "outputFolder": "cypress/cucumber-json",
+            "filePrefix": "",
+            "fileSuffix": ".cucumber"
+        }
+    },
+    "dependencies": {
+        "cypress-parallel": "*"
+    }
+}

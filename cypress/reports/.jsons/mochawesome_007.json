@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 0,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-12-09T19:39:33.876Z",
+    "end": "2021-12-09T19:39:34.567Z",
+    "duration": 691,
+    "testsRegistered": 4,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2c4979f9-1ad2-4e34-80da-ae13ccb05bea",
+      "title": "",
+      "fullFile": "cypress/integration/test.feature",
+      "file": "cypress/integration/test.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab6f2548-1a5f-4fac-a43e-72357afa1b4c",
+          "title": "Testing Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "First Scenario",
+              "fullTitle": "Testing Scenarios First Scenario",
+              "timedOut": null,
+              "duration": 143,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "ReferenceError: date is not defined",
+                "estack": "ReferenceError: date is not defined\n[3]</<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:66:3\nresolveAndRunStepDefinition@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:20356:29\nstepTest/<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:19677:35\ngetRet@http://localhost:65419/__cypress/runner/cypress_runner.js:155161:20\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://localhost:65419/__cypress/runner/cypress_runner.js:10470:29\nthenFn@http://localhost:65419/__cypress/runner/cypress_runner.js:155179:60\nthen@http://localhost:65419/__cypress/runner/cypress_runner.js:155631:21\nwrapByType/<@http://localhost:65419/__cypress/runner/cypress_runner.js:172103:23\nrunCommand/<@http://localhost:65419/__cypress/runner/cypress_runner.js:170703:17\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:65419/__cypress/runner/cypress_runner.js:11131:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:65419/__cypress/runner/cypress_runner.js:11188:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://localhost:65419/__cypress/runner/cypress_runner.js:11225:10\n_drainQueueStep@http://localhost:65419/__cypress/runner/cypress_runner.js:7907:12\n_drainQueue@http://localhost:65419/__cypress/runner/cypress_runner.js:7896:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7912:16\nAsync/this.drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "6c675458-9b94-48e3-8c84-8c816d2ec551",
+              "parentUUID": "ab6f2548-1a5f-4fac-a43e-72357afa1b4c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Second Scenario",
+              "fullTitle": "Testing Scenarios Second Scenario",
+              "timedOut": null,
+              "duration": 102,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "ReferenceError: date is not defined",
+                "estack": "ReferenceError: date is not defined\n[3]</<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:66:3\nresolveAndRunStepDefinition@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:20356:29\nstepTest/<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:19677:35\ngetRet@http://localhost:65419/__cypress/runner/cypress_runner.js:155161:20\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://localhost:65419/__cypress/runner/cypress_runner.js:10470:29\nthenFn@http://localhost:65419/__cypress/runner/cypress_runner.js:155179:60\nthen@http://localhost:65419/__cypress/runner/cypress_runner.js:155631:21\nwrapByType/<@http://localhost:65419/__cypress/runner/cypress_runner.js:172103:23\nrunCommand/<@http://localhost:65419/__cypress/runner/cypress_runner.js:170703:17\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:65419/__cypress/runner/cypress_runner.js:11131:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:65419/__cypress/runner/cypress_runner.js:11188:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://localhost:65419/__cypress/runner/cypress_runner.js:11225:10\n_drainQueueStep@http://localhost:65419/__cypress/runner/cypress_runner.js:7907:12\n_drainQueue@http://localhost:65419/__cypress/runner/cypress_runner.js:7896:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7912:16\nAsync/this.drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "2a717ec2-f9ae-476e-bbd3-c52abd4fa8f9",
+              "parentUUID": "ab6f2548-1a5f-4fac-a43e-72357afa1b4c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Third Scenario",
+              "fullTitle": "Testing Scenarios Third Scenario",
+              "timedOut": null,
+              "duration": 100,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "ReferenceError: date is not defined",
+                "estack": "ReferenceError: date is not defined\n[3]</<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:66:3\nresolveAndRunStepDefinition@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:20356:29\nstepTest/<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:19677:35\ngetRet@http://localhost:65419/__cypress/runner/cypress_runner.js:155161:20\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://localhost:65419/__cypress/runner/cypress_runner.js:10470:29\nthenFn@http://localhost:65419/__cypress/runner/cypress_runner.js:155179:60\nthen@http://localhost:65419/__cypress/runner/cypress_runner.js:155631:21\nwrapByType/<@http://localhost:65419/__cypress/runner/cypress_runner.js:172103:23\nrunCommand/<@http://localhost:65419/__cypress/runner/cypress_runner.js:170703:17\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:65419/__cypress/runner/cypress_runner.js:11131:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:65419/__cypress/runner/cypress_runner.js:11188:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://localhost:65419/__cypress/runner/cypress_runner.js:11225:10\n_drainQueueStep@http://localhost:65419/__cypress/runner/cypress_runner.js:7907:12\n_drainQueue@http://localhost:65419/__cypress/runner/cypress_runner.js:7896:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7912:16\nAsync/this.drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "47d32377-fc90-4e70-a158-37b6e01eddcb",
+              "parentUUID": "ab6f2548-1a5f-4fac-a43e-72357afa1b4c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Fourth Scenario",
+              "fullTitle": "Testing Scenarios Fourth Scenario",
+              "timedOut": null,
+              "duration": 107,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "ReferenceError: date is not defined",
+                "estack": "ReferenceError: date is not defined\n[3]</<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:66:3\nresolveAndRunStepDefinition@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:20356:29\nstepTest/<@http://localhost:65419/__cypress/tests?p=cypress/integration/test.feature:19677:35\ngetRet@http://localhost:65419/__cypress/runner/cypress_runner.js:155161:20\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/method.js/module.exports/Promise.try@http://localhost:65419/__cypress/runner/cypress_runner.js:10470:29\nthenFn@http://localhost:65419/__cypress/runner/cypress_runner.js:155179:60\nthen@http://localhost:65419/__cypress/runner/cypress_runner.js:155631:21\nwrapByType/<@http://localhost:65419/__cypress/runner/cypress_runner.js:172103:23\nrunCommand/<@http://localhost:65419/__cypress/runner/cypress_runner.js:170703:17\ntryCatcher@http://localhost:65419/__cypress/runner/cypress_runner.js:13196:23\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@http://localhost:65419/__cypress/runner/cypress_runner.js:11131:31\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@http://localhost:65419/__cypress/runner/cypress_runner.js:11188:18\n../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseCtx@http://localhost:65419/__cypress/runner/cypress_runner.js:11225:10\n_drainQueueStep@http://localhost:65419/__cypress/runner/cypress_runner.js:7907:12\n_drainQueue@http://localhost:65419/__cypress/runner/cypress_runner.js:7896:24\n../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7912:16\nAsync/this.drainQueues@http://localhost:65419/__cypress/runner/cypress_runner.js:7782:14\n",
+                "diff": null
+              },
+              "uuid": "3cf1fee1-aac5-4d7b-b0d6-627cea23be5d",
+              "parentUUID": "ab6f2548-1a5f-4fac-a43e-72357afa1b4c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "6c675458-9b94-48e3-8c84-8c816d2ec551",
+            "2a717ec2-f9ae-476e-bbd3-c52abd4fa8f9",
+            "47d32377-fc90-4e70-a158-37b6e01eddcb",
+            "3cf1fee1-aac5-4d7b-b0d6-627cea23be5d"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 452,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/.jsons",
+        "charts": true,
+        "reportPageTitle": "My Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
