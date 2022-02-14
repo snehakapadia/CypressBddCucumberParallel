@@ -1,0 +1,16 @@
+image: cypress/base:12
+stages:
+  - automation
+
+# this is the actual suite name that will appear in you CI/CD
+Register:
+    stage: automation
+    script:
+      - npm ci
+      - $(npm bin)/cypress run "cypress/integration/features/Register/*.feature"
+
+Login:
+    stage: automation
+    script:
+      - npm ci
+      - $(npm bin)/cypress run "cypress/integration/features/Login/*.feature"
